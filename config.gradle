@@ -1,0 +1,16 @@
+ext{
+    isModule=true
+    android=[
+            compileSdkVersion:28,
+            minSdkVersion:19,
+            targetSdkVersion:28,
+            versionCode: 1,
+            versionName: "1.0"
+    ]
+    dependencies=[
+            supportLibraryVersion:'27.1.1',
+            constraintLayout:'1.1.1',
+            arouterApi:'1.4.1',
+            arouterCompilerVersion:'1.2.2'
+    ]
+}

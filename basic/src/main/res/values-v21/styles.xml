@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <!--<item name="android:windowContentTransitions">true</item>-->
+        <!--<item name="android:windowSharedElementEnterTransition">@transition/change_bounds</item>-->
+        <!--<item name="android:windowSharedElementExitTransition">@transition/change_bounds</item>-->
+        <!--<item name="android:windowBackground">@color/windowBackgroundColor</item>-->
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:textColorLink">@android:color/holo_blue_light</item>
+        <item name="actionMenuTextAppearance">@style/actionMenuText</item>
+        <!--<item name="actionMenuTextColor">@color/colorPrimary</item>-->
+        <item name="android:actionModeStyle">@style/ActionMode</item>
+    </style>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:windowBackground"></item>-->
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/ActionMode</item>
+        <item name="android:textColorLink">@android:color/holo_blue_light</item>
+        <item name="actionMenuTextAppearance">@style/actionMenuText</item>
+        <!--<item name="actionMenuTextColor">@color/colorPrimary</item>-->
+    </style>
+
+    <!-- link: AppTheme.actionMenuTextAppearance -->
+    <style name="actionMenuText" parent="TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textSize">16sp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <!-- link: AppTheme.actionModeStyle -->
+    <style name="ActionMode" parent="@style/Widget.AppCompat.ActionMode">
+        <item name="background">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="elevation">0.5dp</item>
+        <item name="android:elevation" tools:targetApi="lollipop">0.5dp</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorSecondary">@android:color/secondary_text_dark</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="DialogFragment_theme" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowMinWidthMinor">80%</item>
+        <item name="android:windowMinWidthMajor">80%</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <!--EditText-->
+    <style name="EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColorHint">@color/hint_text_color</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:cursorVisible">true</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+    <style name="EditText.Underline">
+        <item name="android:background">@drawable/bg_edit_text</item>
+    </style>
+
+    <style name="Button" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Button.Blue">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/selector_blue_radius_10</item>
+    </style>
+</resources>

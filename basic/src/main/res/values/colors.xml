@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@android:color/white</color>
+    <color name="colorPrimaryDark">@android:color/white</color>
+    <color name="colorAccent">@color/blue_00bbdd</color>
+
+    <color name="text_color">#323232</color>
+    <color name="hint_text_color">@color/grey_666666</color>
+    <color name="disable_color">@color/grey_cccccc</color>
+
+    <color name="under_line_color">#999999</color>
+
+    <color name="white_ffffff">@android:color/white</color>
+    <color name="grey_cccccc">#cccccc</color>
+    <color name="grey_666666">#666666</color>
+    <color name="blue_00bbdd">#00bbdd</color>
+    <color name="blue_00aadd">#00aadd</color>
+</resources>
