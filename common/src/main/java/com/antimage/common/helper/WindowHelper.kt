@@ -4,7 +4,7 @@ import android.os.Build
 import android.view.View
 import android.view.Window
 
-object WindowUtils {
+object WindowHelper {
 
     /**
      * 隐藏虚拟按键，并且全屏
